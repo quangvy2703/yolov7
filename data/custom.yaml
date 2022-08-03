@@ -1,0 +1,21 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /disk_local/vypham/dataset/watermark/dataset_un_wm_muaban/train/images  # 118287 images
+val: /disk_local/vypham/dataset/watermark/dataset_un_wm_muaban/valid/images  # 5000 images
+# test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 4
+
+# class names
+# names: ['table_lamp', 'bedside_cupboard', 'bed', 'pillow', 'above_kitchen_cabinet', 'ceiling_light', 'kitchen_hood', 'gas_stove', 
+#         'air_conditioner', 'washing_machine', 'water_heater', 'cabinet', 'chair', 'window', 'mirror', 'microwave', 'toilet_bowl', 
+#         'sofa', 'shelf', 'sink', 'table', 'tv_shelf', 'tv', 'below_kitchen_cabinet', 'enameled_tile_floor', 'fridge', 'fire_detector', 
+#         'dining_table_and_chairs', 'fan', 'dry_kitchen', 'carpet', 'oven', 'shoe_cabinet', 'wooden_floor', 'cushions', 'basin', 
+#         'shower_glass', 'shower', 'wardrobe', 'makeup_table', 'bathtub', 'smart_drying_platform']
+
+names: ['batdongsan', 'chotot', 'rever', 'muaban']
