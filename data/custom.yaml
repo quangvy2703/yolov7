@@ -9,7 +9,7 @@ val: /disk_local/vypham/dataset/watermark/dataset_un_wm_muaban/valid/images  # 5
 # test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # number of classes
-nc: 4
+nc: 8
 
 # class names
 # names: ['table_lamp', 'bedside_cupboard', 'bed', 'pillow', 'above_kitchen_cabinet', 'ceiling_light', 'kitchen_hood', 'gas_stove', 
@@ -18,4 +18,14 @@ nc: 4
 #         'dining_table_and_chairs', 'fan', 'dry_kitchen', 'carpet', 'oven', 'shoe_cabinet', 'wooden_floor', 'cushions', 'basin', 
 #         'shower_glass', 'shower', 'wardrobe', 'makeup_table', 'bathtub', 'smart_drying_platform']
 
-names: ['batdongsan', 'chotot', 'rever', 'muaban']
+# names: ['batdongsan', 'chotot', 'rever', 'muaban']
+names: [    
+  "batdongsan_1",
+  "batdongsan_2",
+  "chotot",
+  "watermark_rever_1",
+  "watermark_rever_2",
+  "watermark_rever_3",
+  "watermark_rever_4",
+  "muaban"
+]
